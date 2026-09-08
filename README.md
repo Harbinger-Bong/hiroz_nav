@@ -15,9 +15,11 @@ License
 Development
 - Recommended: clone the parent `hiroz` workspace so the path dependencies resolve. Example layout:
 
+```bash
   parent-folder/
   ├─ hiroz/        # the main project used by the crates via path deps
   └─ hiroz_nav/    # this repo
+```
 
 - From `parent-folder` you can build the workspace:
 

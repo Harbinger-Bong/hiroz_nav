@@ -82,8 +82,4 @@ CI / GitHub Actions
 Files of interest
 - `planner/`, `controller/`, `mapio/`, `costmap/`, `gazebo_bridge/` - the workspace crates.
 
-Please tell me if you want me to:
-- create the GitHub repo and push these files, or
-- just prepare the local commits and give you exact push steps (recommended if you prefer to control repo creation).
-
 Thank you - any guidance or review is welcome!

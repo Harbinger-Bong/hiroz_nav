@@ -1,6 +1,6 @@
 use clap::Parser;
 use hiroz::{Builder, Result, context::ZContextBuilder};
-use hiroz_msgs::geometry_msgs::{TwistStamped, Twist};
+use hiroz_msgs::geometry_msgs::{TwistStamped};
 use hiroz_msgs::nav_msgs::{Odometry, Path};
 use std::sync::{Arc, Mutex};
 use tokio::time::{interval, Duration};

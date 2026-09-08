@@ -3,7 +3,7 @@
 Work-in-progress navigation stack built on top of `hiroz`.
 
 Status
-- **WIP:** This repository is a work in progress. All feedback, issues, and guidance are appreciated — please open issues or send PRs if you have suggestions for architecture, ROS/Zenoh integration, or testing.
+- **WIP:** This repository is a work in progress. All feedback, issues, and guidance are appreciated - please open issues or send PRs if you have suggestions for architecture, ROS/Zenoh integration, or testing.
 
 Overview
 - This crate workspace contains ROS-bridge and navigation components used during development at my local workspace: planner, controller, mapio, costmap and a `gazebo_bridge`.
@@ -68,7 +68,7 @@ Terminal 5:
 ```
 
 Notes:
-- The shared cargo target directory (your local setup) may differ; some setups use `~/.cargo-shared-target` or other paths — adjust the paths above accordingly.
+- The shared cargo target directory (your local setup) may differ; some setups use `~/.cargo-shared-target` or other paths - adjust the paths above accordingly.
 - If you use a shared `CARGO_TARGET_DIR`, export it before building so the `planner`/`controller` binaries appear in the expected release folder.
 
 CI / GitHub Actions
@@ -78,10 +78,10 @@ CI / GitHub Actions
   - Configure CI to fetch the upstream `hiroz` repository into the runner before building.
 
 Files of interest
-- `planner/`, `controller/`, `mapio/`, `costmap/`, `gazebo_bridge/` — the workspace crates.
+- `planner/`, `controller/`, `mapio/`, `costmap/`, `gazebo_bridge/` - the workspace crates.
 
 Please tell me if you want me to:
 - create the GitHub repo and push these files, or
 - just prepare the local commits and give you exact push steps (recommended if you prefer to control repo creation).
 
-Thank you — any guidance or review is welcome!
+Thank you - any guidance or review is welcome!

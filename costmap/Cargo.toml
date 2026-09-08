@@ -1,0 +1,12 @@
+[package]
+name = "costmap"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hiroz = { path = "../../hiroz/crates/hiroz", features = ["jazzy", "rmw-zenoh"] }
+hiroz-msgs = { path = "../../hiroz/crates/hiroz-msgs" }
+hiroz-protocol = { path = "../../hiroz/crates/hiroz-protocol" }
+zenoh = "1.10"
+tokio = { version = "1.52", features = ["full"] }
+clap = { version = "4", features = ["derive"] }

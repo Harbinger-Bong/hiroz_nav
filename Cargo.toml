@@ -1,0 +1,3 @@
+[workspace]
+members = ["gazebo_bridge", "costmap", "mapio", "planner", "controller"]
+resolver = "2"
